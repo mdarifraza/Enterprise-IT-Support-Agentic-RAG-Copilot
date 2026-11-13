@@ -155,7 +155,11 @@ Generate from KB    [4] Tavily Web Search
                                ↓
                     Insufficient Evidence
 ```
+# Industry-Style Agentic RAG
 
+Private KB + Agent Design + Web Search (Tavily) = Grounded Answer
+
+![Agentic RAG Architecture](./WhatsApp%20Image%202026-11-13%20at%202.27.09%20PM.jpeg)
 ### Why Agentic?
 
 Normal RAG does approximately this:
