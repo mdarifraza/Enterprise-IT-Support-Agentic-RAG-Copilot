@@ -2,6 +2,7 @@ import time
 from pinecone import Pinecone , ServerlessSpec
 from langchain_openai import OpenAIEmbeddings
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
+from langchain_groq import ChatGroq
 from langchain_pinecone import PineconeVectorStore
 from app.core.config import get_settings
 
