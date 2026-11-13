@@ -1,7 +1,7 @@
 import logging
 from typing import Literal
-from langchain_openai import ChatOpenAI
-from langchain_google_genai import ChatGoogleGenerativeAI
+#from langchain_openai import ChatOpenAI
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_groq import ChatGroq
 from langchain_tavily import TavilySearch
 from langgraph.graph import StateGraph, START, END
